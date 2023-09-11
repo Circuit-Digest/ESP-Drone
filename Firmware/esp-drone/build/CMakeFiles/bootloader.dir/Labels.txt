@@ -1,0 +1,13 @@
+# Target labels
+ bootloader
+# Source files and their labels
+/home/jj/esp-drone/build/CMakeFiles/bootloader
+/home/jj/esp-drone/build/CMakeFiles/bootloader.rule
+/home/jj/esp-drone/build/CMakeFiles/bootloader-complete.rule
+/home/jj/esp-drone/build/bootloader-prefix/src/bootloader-stamp/bootloader-build.rule
+/home/jj/esp-drone/build/bootloader-prefix/src/bootloader-stamp/bootloader-configure.rule
+/home/jj/esp-drone/build/bootloader-prefix/src/bootloader-stamp/bootloader-download.rule
+/home/jj/esp-drone/build/bootloader-prefix/src/bootloader-stamp/bootloader-install.rule
+/home/jj/esp-drone/build/bootloader-prefix/src/bootloader-stamp/bootloader-mkdir.rule
+/home/jj/esp-drone/build/bootloader-prefix/src/bootloader-stamp/bootloader-patch.rule
+/home/jj/esp-drone/build/bootloader-prefix/src/bootloader-stamp/bootloader-update.rule
