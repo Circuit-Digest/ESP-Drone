@@ -1,0 +1,19 @@
+[sections:_param]
+entries:
+    .param+
+
+[sections:_log]
+entries:
+    .log+
+
+[scheme:_table]
+entries:
+    _param -> flash_rodata
+    _log -> flash_rodata
+
+[mapping:my_project]
+archive: *
+entries:
+    * (_table);
+        _param -> flash_rodata KEEP() ALIGN(4, pre, post) SURROUND(param),
+        _log -> flash_rodata KEEP() ALIGN(4, pre, post) SURROUND(log)
