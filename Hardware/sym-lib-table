@@ -1,0 +1,6 @@
+(sym_lib_table
+  (lib (name "MPU-6050")(type "KiCad")(uri "D:/Semicon/Project/Drone/Lib/MPU6050/MPU-6050.kicad_sym")(options "")(descr ""))
+  (lib (name "SI2301DS-T1")(type "KiCad")(uri "D:/Semicon/Project/Drone/Lib/SI230DS/SI2301DS-T1.kicad_sym")(options "")(descr ""))
+  (lib (name "SI2302DS-T1")(type "KiCad")(uri "D:/Semicon/Project/Drone/Lib/SI2302DS-T1/SI2302DS-T1.kicad_sym")(options "")(descr ""))
+  (lib (name "TP4056-42-ESOP8")(type "Legacy")(uri "D:/Semicon/Project/Drone/Lib/tp4056/TP4056-42-ESOP8.lib")(options "")(descr ""))
+)

@@ -1,0 +1,6 @@
+(fp_lib_table
+  (lib (name "MPU6050")(type "KiCad")(uri "D:/Semicon/Project/Drone/Lib/MPU6050")(options "")(descr ""))
+  (lib (name "SI230DS")(type "KiCad")(uri "D:/Semicon/Project/Drone/Lib/SI230DS")(options "")(descr ""))
+  (lib (name "SI2302DS-T1")(type "KiCad")(uri "D:/Semicon/Project/Drone/Lib/SI2302DS-T1")(options "")(descr ""))
+  (lib (name "tp4056")(type "KiCad")(uri "D:/Semicon/Project/Drone/Lib/tp4056")(options "")(descr ""))
+)
