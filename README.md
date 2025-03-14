@@ -14,7 +14,7 @@ This DIY drone is small in size and can be built using easily available componen
 
 <br>**For anyone who is trying to flash the firmware using ESP32 Flash Download Tool, here are the file offsets for each binary**
 <br>**0x1000 bootloader.bin**
-<br**0x8000 partition-table.bin**
+<br>**0x8000 partition-table.bin**
 <br>**0x10000 ESPDrone.bin**
 <br>
 [Note: As this projects are very simple we are only providing the code, schemaitic, and a few essential images if you want to get the images or code explanations do check out the Circuit Digest website.
