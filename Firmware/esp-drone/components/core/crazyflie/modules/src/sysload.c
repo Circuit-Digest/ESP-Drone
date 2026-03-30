@@ -115,7 +115,7 @@ static void timerHandler(xTimerHandle timer) {
       previousTaskData->ulRunTimeCounter = taskRunTime;
     }
 
-    DEBUG_PRINTI("Free heap: %"PRIu32" bytes", xPortGetFreeHeapSize());
+    DEBUG_PRINTI("Free heap: %u bytes", (unsigned int)xPortGetFreeHeapSize());
     previousTotalRunTime = totalRunTime;
 
     triggerDump = 0;

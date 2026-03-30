@@ -2,34 +2,34 @@
 	"sources" : 
 	[
 		{
-			"file" : "/home/jj/esp-drone/build/CMakeFiles/bootloader"
+			"file" : "/Users/thanh.huynh/ESP-Drone-Project/Firmware/esp-drone/build/CMakeFiles/bootloader"
 		},
 		{
-			"file" : "/home/jj/esp-drone/build/CMakeFiles/bootloader.rule"
+			"file" : "/Users/thanh.huynh/ESP-Drone-Project/Firmware/esp-drone/build/CMakeFiles/bootloader.rule"
 		},
 		{
-			"file" : "/home/jj/esp-drone/build/CMakeFiles/bootloader-complete.rule"
+			"file" : "/Users/thanh.huynh/ESP-Drone-Project/Firmware/esp-drone/build/CMakeFiles/bootloader-complete.rule"
 		},
 		{
-			"file" : "/home/jj/esp-drone/build/bootloader-prefix/src/bootloader-stamp/bootloader-build.rule"
+			"file" : "/Users/thanh.huynh/ESP-Drone-Project/Firmware/esp-drone/build/bootloader-prefix/src/bootloader-stamp/bootloader-build.rule"
 		},
 		{
-			"file" : "/home/jj/esp-drone/build/bootloader-prefix/src/bootloader-stamp/bootloader-configure.rule"
+			"file" : "/Users/thanh.huynh/ESP-Drone-Project/Firmware/esp-drone/build/bootloader-prefix/src/bootloader-stamp/bootloader-configure.rule"
 		},
 		{
-			"file" : "/home/jj/esp-drone/build/bootloader-prefix/src/bootloader-stamp/bootloader-download.rule"
+			"file" : "/Users/thanh.huynh/ESP-Drone-Project/Firmware/esp-drone/build/bootloader-prefix/src/bootloader-stamp/bootloader-download.rule"
 		},
 		{
-			"file" : "/home/jj/esp-drone/build/bootloader-prefix/src/bootloader-stamp/bootloader-install.rule"
+			"file" : "/Users/thanh.huynh/ESP-Drone-Project/Firmware/esp-drone/build/bootloader-prefix/src/bootloader-stamp/bootloader-install.rule"
 		},
 		{
-			"file" : "/home/jj/esp-drone/build/bootloader-prefix/src/bootloader-stamp/bootloader-mkdir.rule"
+			"file" : "/Users/thanh.huynh/ESP-Drone-Project/Firmware/esp-drone/build/bootloader-prefix/src/bootloader-stamp/bootloader-mkdir.rule"
 		},
 		{
-			"file" : "/home/jj/esp-drone/build/bootloader-prefix/src/bootloader-stamp/bootloader-patch.rule"
+			"file" : "/Users/thanh.huynh/ESP-Drone-Project/Firmware/esp-drone/build/bootloader-prefix/src/bootloader-stamp/bootloader-patch.rule"
 		},
 		{
-			"file" : "/home/jj/esp-drone/build/bootloader-prefix/src/bootloader-stamp/bootloader-update.rule"
+			"file" : "/Users/thanh.huynh/ESP-Drone-Project/Firmware/esp-drone/build/bootloader-prefix/src/bootloader-stamp/bootloader-update.rule"
 		}
 	],
 	"target" : 

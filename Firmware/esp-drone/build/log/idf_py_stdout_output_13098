@@ -1,0 +1,57 @@
+-- IDF_TARGET is not set, guessed 'esp32' from sdkconfig '/Users/thanh.huynh/ESP-Drone-Project/Firmware/esp-drone/sdkconfig'
+-- Found Git: /opt/homebrew/bin/git (found version "2.51.0")
+-- Component directory /Users/thanh.huynh/ESP-Drone-Project/Firmware/esp-drone/components/drivers/general does not contain a CMakeLists.txt file. No component will be added
+-- Component directory /Users/thanh.huynh/ESP-Drone-Project/Firmware/esp-drone/components/drivers/i2c_devices does not contain a CMakeLists.txt file. No component will be added
+-- Component directory /Users/thanh.huynh/ESP-Drone-Project/Firmware/esp-drone/components/drivers/spi_devices does not contain a CMakeLists.txt file. No component will be added
+-- Component directory /Users/thanh.huynh/ESP-Drone-Project/Firmware/esp-drone/components/core does not contain a CMakeLists.txt file. No component will be added
+-- Component directory /Users/thanh.huynh/ESP-Drone-Project/Firmware/esp-drone/components/drivers does not contain a CMakeLists.txt file. No component will be added
+-- Component directory /Users/thanh.huynh/ESP-Drone-Project/Firmware/esp-drone/components/lib does not contain a CMakeLists.txt file. No component will be added
+-- The C compiler identification is GNU 13.2.0
+-- The CXX compiler identification is GNU 13.2.0
+-- The ASM compiler identification is GNU
+-- Found assembler: /Users/thanh.huynh/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20230928/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /Users/thanh.huynh/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20230928/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /Users/thanh.huynh/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20230928/xtensa-esp-elf/bin/xtensa-esp32-elf-g++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Building ESP-IDF components for target esp32
+-- Project sdkconfig file /Users/thanh.huynh/ESP-Drone-Project/Firmware/esp-drone/sdkconfig
+Loading defaults file /Users/thanh.huynh/ESP-Drone-Project/Firmware/esp-drone/sdkconfig.defaults...
+/Users/thanh.huynh/ESP-Drone-Project/Firmware/esp-drone/sdkconfig.defaults:1 CONFIG_ESP32_PHY_MAX_WIFI_TX_POWER was replaced with CONFIG_ESP_PHY_MAX_WIFI_TX_POWER
+/Users/thanh.huynh/ESP-Drone-Project/Firmware/esp-drone/sdkconfig.defaults:2 CONFIG_ESP32_PHY_MAX_TX_POWER was replaced with CONFIG_ESP_PHY_MAX_TX_POWER
+-- Compiler supported targets: xtensa-esp-elf
+-- Looking for sys/types.h
+-- Looking for sys/types.h - found
+-- Looking for stdint.h
+-- Looking for stdint.h - found
+-- Looking for stddef.h
+-- Looking for stddef.h - found
+-- Check size of time_t
+-- Check size of time_t - done
+-- Found Python3: /Users/thanh.huynh/.espressif/python_env/idf5.2_py3.13_env/bin/python (found version "3.13.7") found components: Interpreter
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE
+-- Performing Test C_COMPILER_SUPPORTS_WFORMAT_SIGNEDNESS
+-- Performing Test C_COMPILER_SUPPORTS_WFORMAT_SIGNEDNESS - Success
+-- App "ESPDrone" version: 0fd706f-dirty
+-- Adding linker script /Users/thanh.huynh/ESP-Drone-Project/Firmware/esp-drone/build/esp-idf/esp_system/ld/memory.ld
+-- Adding linker script /Users/thanh.huynh/ESP-Drone-Project/Firmware/esp-drone/build/esp-idf/esp_system/ld/sections.ld.in
+-- Adding linker script /Users/thanh.huynh/esp-idf/components/esp_rom/esp32/ld/esp32.rom.ld
+-- Adding linker script /Users/thanh.huynh/esp-idf/components/esp_rom/esp32/ld/esp32.rom.api.ld
+-- Adding linker script /Users/thanh.huynh/esp-idf/components/esp_rom/esp32/ld/esp32.rom.libgcc.ld
+-- Adding linker script /Users/thanh.huynh/esp-idf/components/esp_rom/esp32/ld/esp32.rom.newlib-data.ld
+-- Adding linker script /Users/thanh.huynh/esp-idf/components/esp_rom/esp32/ld/esp32.rom.syscalls.ld
+-- Adding linker script /Users/thanh.huynh/esp-idf/components/esp_rom/esp32/ld/esp32.rom.newlib-funcs.ld
+-- Adding linker script /Users/thanh.huynh/esp-idf/components/soc/esp32/ld/esp32.peripherals.ld
+-- Components: adc app_trace app_update bootloader bootloader_support bt buzzer cmock config console crazyflie cxx deck driver dsp_lib eeprom efuse esp-tls esp_adc esp_app_format esp_bootloader_format esp_coex esp_common esp_eth esp_event esp_gdbstub esp_hid esp_http_client esp_http_server esp_https_ota esp_https_server esp_hw_support esp_lcd esp_local_ctrl esp_mm esp_netif esp_netif_stack esp_partition esp_phy esp_pm esp_psram esp_ringbuf esp_rom esp_system esp_timer esp_wifi espcoredump esptool_py fatfs freertos hal heap hmc5883l http_parser i2c_bus idf_test ieee802154 json led log lwip main mbedtls motors mpu6050 mqtt ms5611 newlib nvs_flash nvs_sec_provider openthread partition_table perfmon platform pmw3901 protobuf-c protocomm pthread sdmmc soc spi_flash spiffs tcp_transport ulp unity usb vfs vl53l0 vl53l1 wear_levelling wifi wifi_provisioning wpa_supplicant xtensa
+-- Component paths: /Users/thanh.huynh/ESP-Drone-Project/Firmware/esp-drone/components/drivers/general/adc /Users/thanh.huynh/esp-idf/components/app_trace /Users/thanh.huynh/esp-idf/components/app_update /Users/thanh.huynh/esp-idf/components/bootloader /Users/thanh.huynh/esp-idf/components/bootloader_support /Users/thanh.huynh/esp-idf/components/bt /Users/thanh.huynh/ESP-Drone-Project/Firmware/esp-drone/components/drivers/general/buzzer /Users/thanh.huynh/esp-idf/components/cmock /Users/thanh.huynh/ESP-Drone-Project/Firmware/esp-drone/components/config /Users/thanh.huynh/esp-idf/components/console /Users/thanh.huynh/ESP-Drone-Project/Firmware/esp-drone/components/core/crazyflie /Users/thanh.huynh/esp-idf/components/cxx /Users/thanh.huynh/ESP-Drone-Project/Firmware/esp-drone/components/drivers/deck /Users/thanh.huynh/esp-idf/components/driver /Users/thanh.huynh/ESP-Drone-Project/Firmware/esp-drone/components/lib/dsp_lib /Users/thanh.huynh/ESP-Drone-Project/Firmware/esp-drone/components/drivers/i2c_devices/eeprom /Users/thanh.huynh/esp-idf/components/efuse /Users/thanh.huynh/esp-idf/components/esp-tls /Users/thanh.huynh/esp-idf/components/esp_adc /Users/thanh.huynh/esp-idf/components/esp_app_format /Users/thanh.huynh/esp-idf/components/esp_bootloader_format /Users/thanh.huynh/esp-idf/components/esp_coex /Users/thanh.huynh/esp-idf/components/esp_common /Users/thanh.huynh/esp-idf/components/esp_eth /Users/thanh.huynh/esp-idf/components/esp_event /Users/thanh.huynh/esp-idf/components/esp_gdbstub /Users/thanh.huynh/esp-idf/components/esp_hid /Users/thanh.huynh/esp-idf/components/esp_http_client /Users/thanh.huynh/esp-idf/components/esp_http_server /Users/thanh.huynh/esp-idf/components/esp_https_ota /Users/thanh.huynh/esp-idf/components/esp_https_server /Users/thanh.huynh/esp-idf/components/esp_hw_support /Users/thanh.huynh/esp-idf/components/esp_lcd /Users/thanh.huynh/esp-idf/components/esp_local_ctrl /Users/thanh.huynh/esp-idf/components/esp_mm /Users/thanh.huynh/esp-idf/components/esp_netif /Users/thanh.huynh/esp-idf/components/esp_netif_stack /Users/thanh.huynh/esp-idf/components/esp_partition /Users/thanh.huynh/esp-idf/components/esp_phy /Users/thanh.huynh/esp-idf/components/esp_pm /Users/thanh.huynh/esp-idf/components/esp_psram /Users/thanh.huynh/esp-idf/components/esp_ringbuf /Users/thanh.huynh/esp-idf/components/esp_rom /Users/thanh.huynh/esp-idf/components/esp_system /Users/thanh.huynh/esp-idf/components/esp_timer /Users/thanh.huynh/esp-idf/components/esp_wifi /Users/thanh.huynh/esp-idf/components/espcoredump /Users/thanh.huynh/esp-idf/components/esptool_py /Users/thanh.huynh/esp-idf/components/fatfs /Users/thanh.huynh/esp-idf/components/freertos /Users/thanh.huynh/esp-idf/components/hal /Users/thanh.huynh/esp-idf/components/heap /Users/thanh.huynh/ESP-Drone-Project/Firmware/esp-drone/components/drivers/i2c_devices/hmc5883l /Users/thanh.huynh/esp-idf/components/http_parser /Users/thanh.huynh/ESP-Drone-Project/Firmware/esp-drone/components/drivers/i2c_bus /Users/thanh.huynh/esp-idf/components/idf_test /Users/thanh.huynh/esp-idf/components/ieee802154 /Users/thanh.huynh/esp-idf/components/json /Users/thanh.huynh/ESP-Drone-Project/Firmware/esp-drone/components/drivers/general/led /Users/thanh.huynh/esp-idf/components/log /Users/thanh.huynh/esp-idf/components/lwip /Users/thanh.huynh/ESP-Drone-Project/Firmware/esp-drone/main /Users/thanh.huynh/esp-idf/components/mbedtls /Users/thanh.huynh/ESP-Drone-Project/Firmware/esp-drone/components/drivers/general/motors /Users/thanh.huynh/ESP-Drone-Project/Firmware/esp-drone/components/drivers/i2c_devices/mpu6050 /Users/thanh.huynh/esp-idf/components/mqtt /Users/thanh.huynh/ESP-Drone-Project/Firmware/esp-drone/components/drivers/i2c_devices/ms5611 /Users/thanh.huynh/esp-idf/components/newlib /Users/thanh.huynh/esp-idf/components/nvs_flash /Users/thanh.huynh/esp-idf/components/nvs_sec_provider /Users/thanh.huynh/esp-idf/components/openthread /Users/thanh.huynh/esp-idf/components/partition_table /Users/thanh.huynh/esp-idf/components/perfmon /Users/thanh.huynh/ESP-Drone-Project/Firmware/esp-drone/components/platform /Users/thanh.huynh/ESP-Drone-Project/Firmware/esp-drone/components/drivers/spi_devices/pmw3901 /Users/thanh.huynh/esp-idf/components/protobuf-c /Users/thanh.huynh/esp-idf/components/protocomm /Users/thanh.huynh/esp-idf/components/pthread /Users/thanh.huynh/esp-idf/components/sdmmc /Users/thanh.huynh/esp-idf/components/soc /Users/thanh.huynh/esp-idf/components/spi_flash /Users/thanh.huynh/esp-idf/components/spiffs /Users/thanh.huynh/esp-idf/components/tcp_transport /Users/thanh.huynh/esp-idf/components/ulp /Users/thanh.huynh/esp-idf/components/unity /Users/thanh.huynh/esp-idf/components/usb /Users/thanh.huynh/esp-idf/components/vfs /Users/thanh.huynh/ESP-Drone-Project/Firmware/esp-drone/components/drivers/i2c_devices/vl53l0 /Users/thanh.huynh/ESP-Drone-Project/Firmware/esp-drone/components/drivers/i2c_devices/vl53l1 /Users/thanh.huynh/esp-idf/components/wear_levelling /Users/thanh.huynh/ESP-Drone-Project/Firmware/esp-drone/components/drivers/general/wifi /Users/thanh.huynh/esp-idf/components/wifi_provisioning /Users/thanh.huynh/esp-idf/components/wpa_supplicant /Users/thanh.huynh/esp-idf/components/xtensa
+-- Configuring done (3.0s)
+-- Generating done (0.3s)
+-- Build files have been written to: /Users/thanh.huynh/ESP-Drone-Project/Firmware/esp-drone/build
