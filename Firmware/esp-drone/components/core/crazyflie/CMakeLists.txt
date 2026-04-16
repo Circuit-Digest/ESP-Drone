@@ -68,7 +68,7 @@ idf_component_register(SRCS "./hal/src/buzzer.c"
                 "./utils/src/version.c"
                 "./utils/src/rateSupervisor.c"
                 INCLUDE_DIRS "./hal/interface" "./modules/interface" "./utils/interface"
-                REQUIRES i2c_bus deck mpu6050 ms5611 hmc5883l pmw3901 vl53l1 vl53l0 platform config led eeprom dsp_lib motors wifi adc esp_timer)
+                REQUIRES main i2c_bus deck mpu6050 ms5611 hmc5883l pmw3901 vl53l1 vl53l0 platform config led eeprom dsp_lib motors wifi adc esp_timer)
 
 idf_component_get_property( FREERTOS_ORIG_INCLUDE_PATH freertos ORIG_INCLUDE_PATH)
 target_include_directories(${COMPONENT_TARGET} PUBLIC

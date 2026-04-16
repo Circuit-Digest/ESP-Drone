@@ -1,0 +1,7 @@
+[1/4] cd /Users/thanh.huynh/ESP-Drone-Project/Firmware/esp-drone/build/esp-idf/esptool_py && /Users/thanh.huynh/.espressif/python_env/idf5.2_py3.13_env/bin/python /Users/thanh.huynh/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 partition --type app /Users/thanh.huynh/ESP-Drone-Project/Firmware/esp-drone/build/partition_table/partition-table.bin /Users/thanh.huynh/ESP-Drone-Project/Firmware/esp-drone/build/ESPDrone.bin
+ESPDrone.bin binary size 0xe31e0 bytes. Smallest app partition is 0x100000 bytes. 0x1ce20 bytes (11%) free.
+[2/4] Performing build step for 'bootloader'
+[1/1] cd /Users/thanh.huynh/ESP-Drone-Project/Firmware/esp-drone/build/bootloader/esp-idf/esptool_py && /Users/thanh.huynh/.espressif/python_env/idf5.2_py3.13_env/bin/python /Users/thanh.huynh/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 bootloader 0x1000 /Users/thanh.huynh/ESP-Drone-Project/Firmware/esp-drone/build/bootloader/bootloader.bin
+Bootloader binary size 0x6f30 bytes. 0xd0 bytes (1%) free.
+[3/4] No install step for 'bootloader'
+[4/4] Completed 'bootloader'

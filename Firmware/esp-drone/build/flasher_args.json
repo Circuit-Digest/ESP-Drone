@@ -1,10 +1,10 @@
 {
     "write_flash_args" : [ "--flash_mode", "dio",
-                           "--flash_size", "detect",
+                           "--flash_size", "2MB",
                            "--flash_freq", "80m" ],
     "flash_settings" : {
         "flash_mode": "dio",
-        "flash_size": "detect",
+        "flash_size": "2MB",
         "flash_freq": "80m"
     },
     "flash_files" : {

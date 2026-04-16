@@ -11,7 +11,15 @@ set(PLANE_COMPONENT_DIRS "./components/core"
                         "./components/drivers/spi_devices"
                          "./components/lib" )
 
-set(EXTRA_COMPONENT_DIRS "${EXTRA_COMPONENT_DIRS} ${PLANE_COMPONENT_DIRS}")
+set(EXTRA_COMPONENT_DIRS
+    ${CMAKE_CURRENT_LIST_DIR}/components/core
+    ${CMAKE_CURRENT_LIST_DIR}/components/drivers/general
+    ${CMAKE_CURRENT_LIST_DIR}/components/drivers/i2c_devices
+    ${CMAKE_CURRENT_LIST_DIR}/components/drivers/i2c_bus
+    ${CMAKE_CURRENT_LIST_DIR}/components/drivers/spi_devices
+    ${CMAKE_CURRENT_LIST_DIR}/components/drivers/deck
+    ${CMAKE_CURRENT_LIST_DIR}/components/lib
+)
 
 include($ENV{IDF_PATH}/tools/cmake/project.cmake)
 project(ESPDrone)

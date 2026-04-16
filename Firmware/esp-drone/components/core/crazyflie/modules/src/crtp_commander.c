@@ -25,7 +25,7 @@
  */
 #include <stdbool.h>
 #include <stddef.h>
-
+#include "autonav.h"
 #include "crtp_commander.h"
 
 #include "cfassert.h"
@@ -116,6 +116,33 @@ static void commanderCrtpCB(CRTPPacket* pk)
     commanderSetSetpoint(&setpoint, COMMANDER_PRIORITY_CRTP);
   } else if (pk->port == CRTP_PORT_SETPOINT_GENERIC) {
     switch (pk->channel) {
+	    case 10: // Start Square path
+      autonavStartShape(AUTONAV_SHAPE_SQUARE);
+      break;
+
+    case 11: // Start Rectangle path
+      autonavStartShape(AUTONAV_SHAPE_RECTANGLE);
+      break;
+
+    case 12: // Start Oval path
+      autonavStartShape(AUTONAV_SHAPE_OVAL);
+      break;
+
+    case 13: // Start Triangle path
+      autonavStartShape(AUTONAV_SHAPE_TRIANGLE);
+      break;
+
+    case 14: // Start Pentagon path
+      autonavStartShape(AUTONAV_SHAPE_PENTAGON);
+      break;  
+      
+    case 20: // Enable manual override
+      autonavEnableManualOverride(true);
+      break;
+
+    case 21: // Disable manual override
+      autonavEnableManualOverride(false);
+      break;
     case SET_SETPOINT_CHANNEL:
       crtpCommanderGenericDecodeSetpoint(&setpoint, pk);
       commanderSetSetpoint(&setpoint, COMMANDER_PRIORITY_CRTP);
